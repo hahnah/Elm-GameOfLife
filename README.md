@@ -4,30 +4,36 @@ Conway's Game of Life in Elm
 
 ## Demo
 
-https://superhahnah.com/application/game-of-life
+[https://hahnah.github.io/Elm-GameOfLife/](https://hahnah.github.io/Elm-GameOfLife/)
 
 ## Run or build
 
-- Preparation
-    
-    Install [create-elm-app](https://github.com/halfzebra/create-elm-app).
-    ```
-    npm install -g create-elm-app
-    ```
-    Use create-elm-app to run or build Elm-GameOfLife.
+### Preparation
 
-- Run Elm-GameOfLife in development mode
-    ```
-    elm-app start
-    ```
-    Elm-GameOfLife runs at `localhost:3000`.
+Install Node.js and Volta, then set specified versions of Node.js and npm.
 
-- Build Elm-GameOfLife
-    ```
-    elm-app build
-    ```
-    You can see production of Elm-GameOfLife in `build` directory.
+Install node modules dependencies.
+
+```bash
+npm install
+```
+
+### Run in development mode
+
+```bash
+npm run start
+```
+
+Elm-GameOfLife runs at `http://localhost:8000`.
+
+### Build in production mode
+
+```bash
+npm run build
+```
+
+It Builds into `dist/` directory.
 
 ## License
 
-MIT © [hahnah](https://superhahnah.com)
+MIT © [Hahnah](https://hahnah.github.io/)
