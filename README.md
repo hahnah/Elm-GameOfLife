@@ -36,4 +36,4 @@ It Builds into `dist/` directory.
 
 ## License
 
-MIT © [hahnah](https://superhahnah.com)
+MIT © [Hahnah](https://hahnah.github.io/)
