@@ -338,9 +338,9 @@ view model =
     div []
         [ h1 []
             [ text "GAME OF LIFE |"
-            , span (List.append [ onClick Start ] <| generateSpanStyle model.scene Start) [ text "START" ]
-            , span (List.append [ onClick Pause ] <| generateSpanStyle model.scene Pause) [ text "PAUSE" ]
-            , span (List.append [ onClick Reset ] <| generateSpanStyle model.scene Reset) [ text "RESET" ]
+            , span (List.append [ onClick Start, style "cursor" "pointer" ] <| generateSpanStyle model.scene Start) [ text "START" ]
+            , span (List.append [ onClick Pause, style "cursor" "pointer" ] <| generateSpanStyle model.scene Pause) [ text "PAUSE" ]
+            , span (List.append [ onClick Reset, style "cursor" "pointer" ] <| generateSpanStyle model.scene Reset) [ text "RESET" ]
             ]
         , generateTable cellStyleConfig model.cellMatrix
         ]
