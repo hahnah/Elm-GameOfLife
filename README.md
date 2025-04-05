@@ -4,7 +4,7 @@ Conway's Game of Life in Elm
 
 ## Demo
 
-https://superhahnah.com/application/game-of-life
+[https://hahnah.github.io/Elm-GameOfLife/](https://hahnah.github.io/Elm-GameOfLife/)
 
 ## Run or build
 
