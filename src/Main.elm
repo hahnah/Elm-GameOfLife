@@ -336,7 +336,7 @@ createCell cell neighborCount =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 []
+        [ h1 [ style "margin-left" "20px" ]
             [ text "GAME OF LIFE |"
             , span (List.append [ onClick Start, style "cursor" "pointer" ] <| generateSpanStyle model.scene Start) [ text "START" ]
             , span (List.append [ onClick Pause, style "cursor" "pointer" ] <| generateSpanStyle model.scene Pause) [ text "PAUSE" ]
